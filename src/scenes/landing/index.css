@@ -1,0 +1,73 @@
+.short_url:after {
+  content: "MentRAn";
+  animation: spin 30s linear infinite;
+}
+@keyframes spin {
+  0% {
+    content: "arSILeNE";
+  }
+  10% {
+    content: "Vd5StHfY";
+  }
+  20% {
+    content: "WDossQxq";
+  }
+  30% {
+    content: "8T2QeyR2";
+  }
+  40% {
+    content: "q3PQ6E6z";
+  }
+  50% {
+    content: "sumBi";
+  }
+  60% {
+    content: "EVigA";
+  }
+  70% {
+    content: "Cas";
+  }
+  80% {
+    content: "hIl";
+  }
+  90% {
+    content: "fuga";
+  }
+}
+
+.full_url:after {
+  content: "http://www.example.com/board.php";
+  animation: full_url 30s linear infinite;
+}
+@keyframes full_url {
+  0% {
+    content: "http://www.example.com/?basket=base";
+  }
+  10% {
+    content: "http://www.example.org/afternoon/bottle?blow=bomb";
+  }
+  20% {
+    content: "https://www.example.com/army?afterthought=argument&acoustics=branch";
+  }
+  30% {
+    content: "http://example.com/baseball";
+  }
+  40% {
+    content: "https://breath.example.net/air/advertisement.php#behavior";
+  }
+  50% {
+    content: "https://example.com/?activity=advice";
+  }
+  60% {
+    content: "https://example.com/ball?brother=bubble&bone=angle";
+  }
+  70% {
+    content: "https://brake.example.com/advertisement/bat.htm";
+  }
+  80% {
+    content: "http://www.example.org/afternoon/bottle?blow=bomb";
+  }
+  90% {
+    content: "https://www.example.net/";
+  }
+}
