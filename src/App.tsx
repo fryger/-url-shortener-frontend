@@ -3,6 +3,7 @@ import { CssBaseline, ThemeProvider } from "@mui/material";
 
 import Topbar from "./scenes/global/Topbar";
 import Landing from "./scenes/landing";
+import RegisterPage from "./scenes/register";
 import { Routes, Route } from "react-router-dom";
 
 
@@ -20,6 +21,7 @@ function App() {
             <Topbar />
             <Routes>
               <Route path="/" element={<Landing />} />
+              <Route path="/register" element={<RegisterPage />} />
             </Routes>
           </main>
         </div>
