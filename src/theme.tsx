@@ -41,15 +41,15 @@ export const tokens = (mode: any) => ({
                 900: "#282828"
             },
             primary: {
-                100: "#f0f7f3",
-                200: "#e1eee8",
-                300: "#d3e6dc",
-                400: "#c4ddd1",
+                900: "#f0f7f3",
+                800: "#e1eee8",
+                700: "#d3e6dc",
+                600: "#c4ddd1",
                 500: "#b5d5c5",
-                600: "#91aa9e",
-                700: "#6d8076",
-                800: "#48554f",
-                900: "#242b27"
+                400: "#91aa9e",
+                300: "#6d8076",
+                200: "#48554f",
+                100: "#242b27"
             }
         })
 })
@@ -96,7 +96,7 @@ export const themeSettings = (mode: any) => {
                         default: colors.primary[500]
                     },
                     text: {
-                        primary: colors.gray[100]
+                        primary: colors.gray[900]
                     }
                 }
             )
