@@ -1,0 +1,18 @@
+
+LoginModal:
+    [] Typing
+
+Login form:
+    [] Show error when user provide wrong email or password 
+    [] Validate data
+    [] Login with oauth
+    [] Redirect to dashboard
+
+Register form:
+    [] Show error when user provide wrong email or password
+    [] Validate data
+    [] Register oauth Gmail
+
+
+Dashboard:
+    [] List urls

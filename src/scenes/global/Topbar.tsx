@@ -6,6 +6,9 @@ import { LightModeOutlined, DarkModeOutlined, AccountCircleOutlined } from "@mui
 import Logo from "../../assets/logo.png"
 import LoginModal from "../../components/LoginModal";
 
+import { createContext } from "react";
+
+
 const Topbar = () => {
     const theme = useTheme();
     const colors = tokens(theme.palette.mode);
@@ -31,7 +34,7 @@ const Topbar = () => {
 
     return (
         <Box height={"64px"} display="flex" justifyContent="space-between" p={2}>
-            <Typography fontSize={"30px"} color={colors.gray[100]}>Project URL</Typography>
+            <Typography fontSize={"34px"} fontWeight={900} color={colors.gray[100]}>Project URL</Typography>
             <Box display="flex" >
                 <IconButton
                     onClick={colorMode.toggleColorMode}
@@ -65,7 +68,7 @@ const Topbar = () => {
                     horizontal: 'left',
                 }}
             >
-                <Typography sx={{ p: 2 }}> <LoginModal /></Typography>
+                <Typography sx={{ p: 2 }}> <LoginModal onChange={handleClose} /></Typography>
             </Popover>
 
 
